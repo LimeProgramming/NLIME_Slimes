@@ -472,16 +472,6 @@
 		)
 		(uuid "6ed197c2-1049-44ba-972e-3585c0a74ee4")
 	)
-	(pad "25" thru_hole oval
-		(at 7.62 -12.7)
-		(size 2 1.2)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1)
-		(clearance 0.208)
-		(uuid "e704def3-d88a-4f9e-bf5c-b2b5a07e9ad3")
-	)
 	(pad "26" thru_hole oval
 		(at 7.62 -15.24)
 		(size 2 1.7)
