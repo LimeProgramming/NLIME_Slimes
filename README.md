@@ -8,3 +8,7 @@ I kinda like them.
 
 TODO: Add a license 
 TODO: Write a proper read me maybe later. 
+
+
+> [!NOTE]
+> This was made with KICAD 9 and for some reason opening this project with KICAD 8 corrupts the PCB file.
