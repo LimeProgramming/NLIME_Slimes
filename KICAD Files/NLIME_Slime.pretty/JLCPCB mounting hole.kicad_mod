@@ -1,0 +1,62 @@
+(footprint "JLCPCB mounting hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.Fab")
+		(uuid "53989839-7945-4870-80c8-3e55ba00362b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "JLCPCB mounting hole"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "99de54bb-7e2c-47a6-9304-88ea238129c0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f45080f6-ffbd-4c60-b850-1ef758b0adf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4aa22c6-cca9-4bd4-8172-323906051400")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.152 1.152)
+		(drill 1.152)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c48a41c8-558c-46ee-81f5-e8665d287e85")
+	)
+	(embedded_fonts no)
+)

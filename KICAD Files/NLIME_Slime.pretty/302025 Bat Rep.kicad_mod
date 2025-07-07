@@ -1,0 +1,93 @@
+(footprint "302025 Bat Rep"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a48c9685-3978-48e2-827f-887e0a3e2eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "302025 Bat Rep"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "5f13c053-d80b-41a5-9b05-60837d1af0d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e58d41b9-091c-4f1b-b2bc-a252fc0c26cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e204c254-708e-46fe-92d2-e745da45fcec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -12.5 -10)
+		(end 12.5 10)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "24ca42c0-af9d-487c-b219-b5776de08c28")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b79569b7-209b-4591-9e3a-f8f565f6cf01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/NLIME_Slime.pretty/3d/battery-302025.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
