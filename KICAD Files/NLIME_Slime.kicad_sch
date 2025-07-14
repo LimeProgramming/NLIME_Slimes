@@ -3435,12 +3435,12 @@
 		(uuid "461c3e6b-f83e-4819-bca8-3e8f108f0967")
 	)
 	(no_connect
-		(at 168.91 50.8)
-		(uuid "4a577de2-d5b3-432a-863a-a24d7d2260dd")
-	)
-	(no_connect
 		(at 168.91 63.5)
 		(uuid "659aadd0-5e45-4b84-9ac0-8f0560583dff")
+	)
+	(no_connect
+		(at 168.91 50.8)
+		(uuid "728f5bdb-a1f5-49aa-962a-8577d28bf1f9")
 	)
 	(no_connect
 		(at 168.91 68.58)
@@ -3704,16 +3704,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 132.08 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3712265b-e217-49de-b43b-3a09c47ac529")
-	)
-	(wire
-		(pts
 			(xy 132.08 68.58) (xy 138.43 68.58)
 		)
 		(stroke
@@ -3941,6 +3931,16 @@
 			(type default)
 		)
 		(uuid "5f0729b1-dd44-4e32-bf1c-931afc87df87")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.26) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60308463-4a2f-4834-8f26-9ed42d25ef08")
 	)
 	(wire
 		(pts
@@ -4264,16 +4264,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d26fb622-b28b-4700-a8d6-42bf7a6ec3c4")
-	)
-	(wire
-		(pts
 			(xy 67.31 86.36) (xy 69.85 86.36)
 		)
 		(stroke
@@ -4301,6 +4291,16 @@
 			(type default)
 		)
 		(uuid "dd045a3d-67af-43d3-80f5-9df36c1d8704")
+	)
+	(wire
+		(pts
+			(xy 24.13 35.56) (xy 24.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a098d6-a7bb-4eba-b035-feaf37525638")
 	)
 	(wire
 		(pts
@@ -5592,7 +5592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" "C23630"
 			(at 93.98 44.45 90)
 			(effects
 				(font
@@ -6010,72 +6010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 132.08 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3991861b-9c6c-424f-ac63-9f22f4d23e90")
-		(property "Reference" "#PWR09"
-			(at 132.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT_SWT"
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ba8809f-168f-42df-b9c0-a8e869788389")
-		)
-		(instances
-			(project "SlimeButterfly"
-				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NLIME_Slimes:Battery_302025")
 		(at 53.34 177.8 0)
 		(unit 1)
@@ -6140,6 +6074,72 @@
 			(project ""
 				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
 					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4082060a-2fd3-4dc1-acde-59a6ddc71d51")
+		(property "Reference" "#PWR025"
+			(at 24.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3817f69d-56af-43f3-a836-7f50d37ea97b")
+		)
+		(instances
+			(project "NLIME_Slime"
+				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6281,72 +6281,6 @@
 			(project "SlimeButterfly"
 				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 24.13 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a26556b-5a8a-4af2-98e3-34d8dadb0ee6")
-		(property "Reference" "#PWR07"
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT_SWT"
-			(at 24.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 24.13 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b31757b4-249c-4c0f-bee9-9ed2d7143ec7")
-		)
-		(instances
-			(project "SlimeButterfly"
-				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7923,6 +7857,72 @@
 			(project ""
 				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f0ef9d-dce0-489a-a78d-e511b2ab0840")
+		(property "Reference" "#PWR02"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3dab432-eef8-40f5-9df7-461bbb481a10")
+		)
+		(instances
+			(project "NLIME_Slime"
+				(path "/95168c8f-ea80-49b0-8f73-f32d7ec2a49f"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
