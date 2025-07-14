@@ -135,6 +135,17 @@
 		(uuid "c395b4ed-ba58-448c-94a7-7ec251fe1084")
 	)
 	(fp_rect
+		(start 6.25 -11.4)
+		(end 9 -6.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "fd3f9a52-7ec6-4e98-a395-96141a1fee33")
+	)
+	(fp_rect
 		(start -9.144 -16.51)
 		(end 9.144 16.51)
 		(stroke
@@ -459,6 +470,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
 		(clearance 0.208)
+		(thermal_bridge_width 1.2)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -479,7 +491,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
-		(clearance 0.208)
+		(clearance 0.4)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -494,7 +506,7 @@
 		(uuid "ddb6541d-ad1d-47a1-bef4-7a6c1758f49c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Slimewings.pretty/3d/nrf-52840.step"
+	(model "${KIPRJMOD}/NLIME_Slime.pretty/3d/nrf-52840.step"
 		(offset
 			(xyz -8.89 16.5 1.6)
 		)

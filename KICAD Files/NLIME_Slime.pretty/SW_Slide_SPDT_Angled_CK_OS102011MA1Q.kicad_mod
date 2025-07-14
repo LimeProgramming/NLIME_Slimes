@@ -426,6 +426,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_width 1.2)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
