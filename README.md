@@ -14,3 +14,10 @@ TODO: Write a proper read me maybe later.
 
 > [!NOTE]
 > This was made with KICAD 9 and for some reason opening this project with KICAD 8 corrupts the PCB file.
+
+
+> [!NOTE]
+> Weird print settings
+> 0.48 mm wall thickness
+> layer 1 height 0.3mm
+> layer height 0.26mm 
