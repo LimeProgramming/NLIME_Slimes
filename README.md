@@ -1,3 +1,5 @@
+[![License: Personal Use Only](https://img.shields.io/badge/license-Personal%20Use%20Only-red.svg)](./LICENSE.MD)
+
 > [!WARNING]
 > This has not been made ***yet*** so not confirmed working. While you're free to make it anyway, do not blame me if it doesn't work. You have been warned.
 
