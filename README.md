@@ -10,7 +10,6 @@ SMOL Slime VR trackers based around nRF52840, intended to be similar form factor
 
 I kinda like them. 
 
-TODO: Add a license 
 TODO: Write a proper read me maybe later. 
 
 
