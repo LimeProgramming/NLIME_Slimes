@@ -8,14 +8,14 @@ SPDX-License-Identifier: LicenseRef-NlimeSlimeTracker-NC
 
 -   You may **read** the design files, schematics, and documentation.
     
--   You may **modify** the files for **your own personal, non-commercial use**.
+-   You may **modify** the files for **your own personal use**.
     
--   You may **fabricate/build** the hardware for **your own personal, non-commercial use**.
+-   You may **fabricate/build** the hardware for **your own personal use**.
     
 
 ### Restrictions
 
--   **No Commercial Use**: You may not manufacture, sell, or distribute this hardware or derivatives for commercial purposes without my explicit permission.
+-   **No Commercial Manufacturing**: You may not manufacture this hardware, or derivatives of it, for the purpose of resale or other commercial production without my explicit permission. You are welcome to build and use it for projects, research, or testing.
     
 -   **No Relicensing**: If you fork or modify this project, it must keep this license.
     
@@ -26,3 +26,4 @@ SPDX-License-Identifier: LicenseRef-NlimeSlimeTracker-NC
 
 This hardware is provided **“as is”**, without warranty.  
 Use it at your own risk.
+
