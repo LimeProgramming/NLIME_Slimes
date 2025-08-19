@@ -1,6 +1,6 @@
-SPDX-License-Identifier: LicenseRef-NlimeSlimeTracker-NC
+SPDX-License-Identifier: LicenseRef-NlimeSlimeTracker
 
-# NLime Slime Tracker Hardware License (Non-Commercial, Personal Use Only)
+# NLime Slime Tracker Hardware License
 
 **I own this hardware design. You may use it, but you do not own it.**
 
@@ -26,5 +26,6 @@ SPDX-License-Identifier: LicenseRef-NlimeSlimeTracker-NC
 
 This hardware is provided **“as is”**, without warranty.  
 Use it at your own risk.
+
 
 
